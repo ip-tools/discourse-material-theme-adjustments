@@ -1,14 +1,11 @@
 {
-  "name": "discourse-material-theme-adjustments",
+  "name": "discourse-material-theme-ample",
   "author": "The IP Tools Developers",
   "bugs": {
-    "url": "https://github.com/ip-tools/discourse-material-theme-adjustments/issues"
+    "url": "https://github.com/ip-tools/discourse-material-theme-ample/issues"
   },
-  "description": "Material Design for Discourse (Adjustments)",
+  "description": "Ample layout adjustments for Material Design for Discourse",
   "devDependencies": {
-  },
-  "engines": {
-    "node": ">=4"
   },
   "homepage": "",
   "keywords": [
@@ -20,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ip-tools/discourse-material-theme-adjustments.git"
+    "url": "https://github.com/ip-tools/discourse-material-theme-ample.git"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

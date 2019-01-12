@@ -1,14 +1,7 @@
-/**
- * Global
-**/
+/* Use vanilla font sizes */
 body {
     font-size: unset;
 }
-
-
-/**
- * Main views
-**/
 
 /* Don't limit topic status icon size */
 .topic-statuses i.d-icon {
@@ -16,12 +9,12 @@ body {
     width: unset !important;
 }
 
-/* Give _narrow topic items_ more vertical breath */
+/* Larger _narrow_ topic items */
 .topic-list .link-bottom-line {
     margin-top: 0.4em;
 }
 
-/* Give _verbose topic items_ more horizontal expansion and larger font */
+/* Larger _verbose_ topic items */
 .topic-list-item,.latest-topic-list-item .main-link {
     max-width: 85%;
 }
@@ -29,41 +22,12 @@ body {
     font-size: larger;
 }
 
-/* Expand category titles */
+/* Larger category titles */
 .category-list .category-name {
     font-size: larger;
 }
 
-
-/**
- * Widgets
-**/
-
-/* Tweak category badges */
-.category-list,
-.category-links,
-.category-drop,
-.title-wrapper,
-.topic-list,
-.latest-topic-list,
-.suggested-topics-message {
-    .badge-wrapper {
-
-        /* Less globular */
-        border-radius: 6px !important;
-
-        /* Don't shrink badges on e.g. /latest */
-        transform: unset !important;
-
-        /* Less globular */
-        > span {
-            border-radius: inherit !important;
-        }
-    }
-}
-
-
-/* Expand avatar images */
+/* Larger avatar images */
 .topic-poster {
     min-width: 60px !important;
 }

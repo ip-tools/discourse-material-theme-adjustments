@@ -1,13 +1,11 @@
-/**
- * Topic title
-**/
-$topic-title-font-size: 0.8em;
+/* Smaller font size for topic subject (.fancy-subject) */
+$topic-subject-font-size: 0.8em;
 
 /* Adjust font size */
-.title-wrapper h1 .fancy-title {
-    font-size: $topic-title-font-size !important;
+.subject-wrapper h1 .fancy-subject {
+    font-size: $topic-subject-font-size !important;
 }
-.title-wrapper h1 {
+.subject-wrapper h1 {
 }
 
 /* Reduce spacing between logo and text */
