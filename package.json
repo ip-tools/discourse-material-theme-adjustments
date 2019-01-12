@@ -4,7 +4,7 @@
   "bugs": {
     "url": "https://github.com/ip-tools/discourse-material-theme-adjustments/issues"
   },
-  "description": "Adjustments for Material Design for Discourse",
+  "description": "Material Design for Discourse (Adjustments)",
   "devDependencies": {
   },
   "engines": {

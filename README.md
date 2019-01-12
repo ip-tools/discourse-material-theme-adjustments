@@ -1,2 +1,2 @@
 # discourse-material-theme-adjustments
-Adjustments for Material Design for Discourse
+Material Design for Discourse (Adjustments)
