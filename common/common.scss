@@ -16,10 +16,15 @@ body {
     font-size: initial !important;
 }
 
-/* Larger font sizes for category title and description */
+/* Make category item more prominent */
 .category-list {
-    .category-text-title, .category-description {
+    /* Vanilla font sizes for category title and description */
+    .category-text-title, .category-description, .category-name {
         font-size: initial !important;
+    }
+    /* Some spacing after category description */
+    .category-description {
+        margin-bottom: 8px;
     }
 }
 
