@@ -1,6 +1,6 @@
 {
-  "name": "Material Design for Discourse: Ample layout adjustments",
-  "about_url": "https://github.com/ip-tools/discourse-material-theme-adjustments",
-  "license_url": "https://github.com/ip-tools/discourse-material-theme-adjustments/blob/master/LICENSE",
+  "name": "[Daemonite] Material Design: Ample layout adjustments",
+  "about_url": "https://github.com/ip-tools/discourse-material-theme-ample",
+  "license_url": "https://github.com/ip-tools/discourse-material-theme-ample/blob/master/LICENSE",
   "component": true
 }
