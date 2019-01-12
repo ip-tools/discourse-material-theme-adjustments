@@ -3,5 +3,6 @@
   "color_schemes": {
   },
   "license_url": "https://github.com/ip-tools/discourse-material-theme-adjustments/blob/master/LICENSE",
-  "name": "Material Design for Discourse (Adjustments)"
+  "name": "Material Design for Discourse (Adjustments)",
+  "component": true
 }
