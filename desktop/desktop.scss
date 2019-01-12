@@ -3,9 +3,14 @@
 **/
 $topic-title-font-size: 0.8em;
 
-.title-wrapper h1 {
-    line-height: $topic-title-font-size !important;
-}
+/* Adjust font size */
 .title-wrapper h1 .fancy-title {
     font-size: $topic-title-font-size !important;
+}
+.title-wrapper h1 {
+}
+
+/* Reduce spacing between logo and text */
+.d-header .extra-info-wrapper {
+    margin-left: unset !important;
 }
