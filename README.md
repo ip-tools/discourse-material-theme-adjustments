@@ -1,4 +1,4 @@
-# Ample layout adjustments for Discourse' Daemonite Material Theme
+# Ample layout tweaks for Discourse Daemonite Material Theme
 
 ## About
 Ample layout adjustments for [Material Design for Discourse].
