@@ -3,12 +3,6 @@ body {
     font-size: unset;
 }
 
-/* Remove size limit from topic status icon */
-.topic-statuses i.d-icon {
-    height: unset !important;
-    width: unset !important;
-}
-
 /* Larger _narrow_ topic items */
 .topic-list .link-bottom-line {
     margin-top: 0.4em;
@@ -19,12 +13,14 @@ body {
     max-width: 85%;
 }
 .topic-list-item,.latest-topic-list-item .title {
-    font-size: larger;
+    font-size: initial !important;
 }
 
-/* Larger category titles */
-.category-list .category-name {
-    font-size: larger;
+/* Larger font sizes for category title and description */
+.category-list {
+    .category-text-title, .category-description {
+        font-size: initial !important;
+    }
 }
 
 /* Larger avatar images */
@@ -32,6 +28,27 @@ body {
     min-width: 60px !important;
 }
 .topic-poster img.avatar {
+    height: unset !important;
+    width: unset !important;
+}
+
+/* Increase topic post item width */
+/* Has to take care of the timeline control */
+.topic-post {
+    @media (min-width: 1170px) {
+        .topic-body {
+            width: 70%;
+        }
+    }
+    @media (min-width: 1270px) {
+        .topic-body {
+            width: 80%;
+        }
+    }
+}
+
+/* Bugfix: Remove size limit from topic status icon */
+.topic-statuses i.d-icon {
     height: unset !important;
     width: unset !important;
 }

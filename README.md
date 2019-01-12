@@ -20,6 +20,7 @@ See also article [Daemonite Material Theme: Ample layout adjustments] on meta.di
 - Remove size limit from topic status icon
 - Larger _narrow_ and _verbose_ topic items
 - Smaller font size for topic subject on topic page
+- Increase topic post item width
 
 ## See also
 - [Category badge adjustments for Discourse]
@@ -29,7 +30,7 @@ See also article [Daemonite Material Theme: Ample layout adjustments] on meta.di
 
 ## Credits
 - Material Master [Maya Ma]
-- The whole [Discourse Team]
+- The whole [Discourse Team] and all contributors
 
 Thanks for all your hard work on [Discourse] and [Material Design for Discourse]!
 
