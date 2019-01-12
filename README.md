@@ -4,6 +4,14 @@
 Ample layout adjustments for [Material Design for Discourse].
 Tweak the overall layout towards bolder appearance,
 mainly by using larger font sizes and element dimensions.
+Also, add some optimizations for mobile.
+See also article [Daemonite Material Theme: Ample layout adjustments] on meta.discourse.org.
+
+## Screenshots
+### Before
+![image](https://meta-s3-cdn.freetls.fastly.net/original/3X/d/c/dc885d359f8dc762736cd2453c2005f0731bd49f.png)
+### After
+![image](https://meta-s3-cdn.freetls.fastly.net/original/3X/8/3/83422bb3e1dc03e691a65e2be6ab8ea1bda00d41.png)
 
 ## Details
 - Vanilla font sizes
@@ -31,4 +39,4 @@ Thanks for all your hard work on [Discourse] and [Material Design for Discourse]
 [Discourse Team]: https://www.discourse.org/team
 [IP Software Community Helpdesk]: https://meta.ip-tools.org/
 
-[Category badge adjustments for Discourse]: https://github.com/ip-tools/discourse-category-badge-theme-component
+[Daemonite Material Theme: Ample layout adjustments]: https://meta.discourse.org/t/daemonite-material-theme-ample-layout-adjustments/106379
