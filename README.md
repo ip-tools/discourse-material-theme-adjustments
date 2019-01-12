@@ -23,7 +23,7 @@ See also article [Daemonite Material Theme: Ample layout adjustments] on meta.di
 - Increase topic post item width
 
 ## See also
-- [Category badge adjustments for Discourse]
+- [Category badge adjustment component]
 
 ## Example
 - [IP Software Community Helpdesk]
@@ -41,3 +41,4 @@ Thanks for all your hard work on [Discourse] and [Material Design for Discourse]
 [IP Software Community Helpdesk]: https://meta.ip-tools.org/
 
 [Daemonite Material Theme: Ample layout adjustments]: https://meta.discourse.org/t/daemonite-material-theme-ample-layout-adjustments/106379
+[Category badge adjustment component]: https://meta.discourse.org/t/category-badge-adjustment-component/106366
