@@ -1,9 +1,9 @@
-# discourse-material-theme-ample
+# Ample layout adjustments for Discourse' Daemonite Material Theme
 
 ## About
 Ample layout adjustments for [Material Design for Discourse].
-Tweaks some elements towards bolder appearance, mainly
-by applying larger font sizes and element dimensions.
+Tweak the overall layout towards bolder appearance,
+mainly by using larger font sizes and element dimensions.
 
 ## Details
 - Vanilla font sizes
