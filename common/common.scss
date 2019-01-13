@@ -70,3 +70,8 @@ body {
     height: unset !important;
     width: unset !important;
 }
+
+/* Bugfix: "Reorder Categories" dialog slightly off */
+.modal .modal-body.full-height-modal.reorder-categories {
+    max-height: calc(100vh - 150px) !important;
+}
