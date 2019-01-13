@@ -52,6 +52,19 @@ body {
     }
 }
 
+/* Reset font size in badge wrapper on topic page */
+.title-wrapper .badge-wrapper {
+    font-size: unset !important;
+}
+
+/* Reset font size for text elements of select kit widgets */
+.select-kit {
+    .select-kit-body, .texts > span {
+        font-size: unset !important;
+    }
+}
+
+
 /* Bugfix: Remove size limit from topic status icon */
 .topic-statuses i.d-icon {
     height: unset !important;
