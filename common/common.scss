@@ -86,3 +86,8 @@ body {
 #reply-control .submit-panel {
     display: initial !important;
 }
+
+/* Fix odd margin attribute with user card (DMT#16) */
+#user-card .bio, #group-card .bio {
+    margin-top: unset !important;
+}
