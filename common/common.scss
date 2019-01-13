@@ -75,3 +75,9 @@ body {
 .modal .modal-body.full-height-modal.reorder-categories {
     max-height: calc(100vh - 150px) !important;
 }
+
+/* Fix DMT#15: Checkboxes slightly off */
+.contents span.chcklst-box::before {
+    display: inline-flex;
+    margin-right: 0.1rem;
+}
