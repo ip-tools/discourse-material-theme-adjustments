@@ -64,12 +64,18 @@ body {
     }
 }
 
-/* Adjust alignment of topic titles in search results */
+/* Improve search results: Adjust alignment of topic titles */
 .search-results .search-link {
     vertical-align: top;
 }
+/* Improve search results: Adjust placement of category badges */
+.fps-result .search-category {
+    display: block !important;
+    margin-left: unset !important;
+    padding-top: 3px !important;
+}
 
-/* Increase spacing between topic content and topic menu area at bottom */
+/* Topic post card: Increase spacing between topic content and bottom topic menu */
 .topic-body .post-menu-area {
     margin-top: 1em;
 }
