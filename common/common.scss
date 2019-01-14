@@ -65,15 +65,20 @@ body {
 }
 
 
-/* Bugfix: Remove size limit from topic status icon */
+/* Fix DMT#7: Remove size limit from topic status icon */
 .topic-statuses i.d-icon {
     height: unset !important;
     width: unset !important;
 }
 
-/* Bugfix: "Reorder Categories" dialog slightly off */
+/* Fix DMT#8: "Reorder Categories" dialog slightly off */
 .modal .modal-body.full-height-modal.reorder-categories {
     max-height: calc(100vh - 150px) !important;
+}
+
+/* Fix DMT#9: "Save Edit" / "Cancel" buttons slightly off when editing posts */
+#reply-control .submit-panel {
+    display: initial !important;
 }
 
 /* Fix DMT#15: Checkboxes slightly off */
@@ -81,11 +86,6 @@ body {
     display: inline-flex;
     margin-right: 0.1rem;
     margin-bottom: 0.1rem;
-}
-
-/* Fix DMT#9: "Save Edit" / "Cancel" buttons slightly off when editing posts */
-#reply-control .submit-panel {
-    display: initial !important;
 }
 
 /* Fix DMT#16: Odd margin attribute with user card */
