@@ -64,6 +64,15 @@ body {
     }
 }
 
+/* Adjust alignment of topic titles in search results */
+.search-results .search-link {
+    vertical-align: top;
+}
+
+
+/**
+ * Bugfixes
+**/
 
 /* Fix DMT#7: Remove size limit from topic status icon */
 .topic-statuses i.d-icon {
