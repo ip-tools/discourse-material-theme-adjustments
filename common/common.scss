@@ -69,6 +69,11 @@ body {
     vertical-align: top;
 }
 
+/* Increase spacing between topic content and topic menu area at bottom */
+.topic-body .post-menu-area {
+    margin-top: 1em;
+}
+
 
 /**
  * Bugfixes
