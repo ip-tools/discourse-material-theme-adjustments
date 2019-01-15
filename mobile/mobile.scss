@@ -1,10 +1,26 @@
 /* Smaller font size for topic title (.fancy-title) */
-$topic-title-font-size: 0.6em;
+$topic-title-post-font-size: 0.6em;
+$topic-title-header-font-size: 0.4em;
 
 /* Adjust font size */
-.title-wrapper h1 .fancy-title {
-    font-size: $topic-title-font-size !important;
+.title-wrapper h1 > a {
+    font-size: $topic-title-post-font-size !important;
 }
 .title-wrapper h1 {
-    line-height: $topic-title-font-size !important;
+    line-height: $topic-title-post-font-size !important;
+}
+
+/* Adjustments for d-header */
+.extra-info-wrapper {
+
+    .topic-link {
+        white-space: unset !important;
+        overflow: unset !important;
+        text-overflow: unset !important;
+    }
+
+    .title-wrapper h1 .fancy-title {
+        font-size: $topic-title-header-font-size !important;
+        font-weight: normal !important;
+    }
 }
