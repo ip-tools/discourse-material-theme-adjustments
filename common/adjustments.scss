@@ -1,0 +1,81 @@
+/* Use vanilla font sizes */
+body {
+    font-size: unset;
+}
+
+/* Larger _narrow_ topic list items */
+.topic-list .link-bottom-line {
+    margin-top: 0.4em;
+}
+
+/* Larger _verbose_ topic list items */
+.topic-list-item,.latest-topic-list-item .main-link {
+    max-width: 85%;
+}
+.topic-list-item,.latest-topic-list-item .title {
+    font-size: initial !important;
+}
+
+/* Make category item more prominent */
+.category-list {
+    /* Reset font sizes for category title and description */
+    .category-text-title, .category-description, .category-name {
+        font-size: initial !important;
+    }
+    /* Add some spacing after category description */
+    .category-description {
+        margin-bottom: 8px;
+    }
+}
+
+/* Larger avatar images */
+.topic-poster {
+    min-width: 60px !important;
+}
+.topic-poster img.avatar {
+    height: unset !important;
+    width: unset !important;
+}
+
+/* Increase topic post item width */
+/* Remark: This has to take care of the timeline control */
+.topic-post {
+    @media (min-width: 1170px) {
+        .topic-body {
+            width: 70%;
+        }
+    }
+    @media (min-width: 1270px) {
+        .topic-body {
+            width: 80%;
+        }
+    }
+}
+
+/* Reset font size in badge wrapper on topic page */
+.title-wrapper .badge-wrapper {
+    font-size: unset !important;
+}
+
+/* Reset font size for text elements of select kit widgets */
+.select-kit {
+    .select-kit-body, .texts > span {
+        font-size: unset !important;
+    }
+}
+
+/* Improve search results: Adjust alignment of topic titles */
+.search-results .search-link {
+    vertical-align: top;
+}
+/* Improve search results: Adjust placement of category badges */
+.fps-result .search-category {
+    display: block !important;
+    margin-left: unset !important;
+    padding-top: 3px !important;
+}
+
+/* Topic post card: Increase spacing between topic content and bottom topic menu */
+.topic-body .post-menu-area {
+    margin-top: 1em;
+}
