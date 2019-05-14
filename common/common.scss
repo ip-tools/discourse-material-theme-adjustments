@@ -112,3 +112,7 @@ body {
 #user-card .bio, #group-card .bio {
     margin-top: unset !important;
 }
+/* Fix DMT#21: Uploaded images appear stretched */
+.lightbox-wrapper a.lightbox {
+    display: inline-block !important;
+}
