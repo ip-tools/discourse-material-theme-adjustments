@@ -85,10 +85,9 @@ body {
  * Bugfixes
 **/
 
-/* Fix DMT#7: Remove size limit from topic status icon */
+/* Fix DMT#7: Adjust spacing between topic status icon and topic title */
 .topic-statuses i.d-icon {
-    height: unset !important;
-    width: unset !important;
+    margin-right: 0.25em;
 }
 
 /* Fix DMT#8: "Reorder Categories" dialog slightly off */
