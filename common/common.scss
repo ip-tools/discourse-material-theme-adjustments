@@ -109,9 +109,12 @@ body {
 }
 
 /* Fix DMT#16: Odd margin attribute with user card */
+/*
 #user-card .bio, #group-card .bio {
     margin-top: unset !important;
 }
+*/
+
 /* Fix DMT#21: Uploaded images appear stretched */
 .lightbox-wrapper a.lightbox {
     display: inline-block !important;
